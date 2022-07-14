@@ -13,7 +13,8 @@ SamlIdp.configure do |config|
     config.single_logout_service_redirect_location = "#{base}/saml/logout"
     config.attribute_service_location = "#{base}/saml/attributes"
     config.single_service_post_location = "#{base}/saml/auth"
-    config.session_expiry = 86400                                 # Default: 0 which means never
+    config.session_expiry = 86400   
+    config.signed_message = true
   
     config.name_id.formats =
       {                         
