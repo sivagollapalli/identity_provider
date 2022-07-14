@@ -1,13 +1,3 @@
-PATH
-  remote: /Users/sivagollapalli/work/saml_idp
-  specs:
-    saml_idp (0.14.0)
-      activesupport (>= 5.2)
-      builder (>= 3.0)
-      nokogiri (>= 1.6.2)
-      rexml
-      xmlenc (>= 0.7.1)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -180,6 +170,12 @@ GEM
       io-console (~> 0.5)
     rexml (3.2.5)
     rubyzip (2.3.2)
+    saml_idp (0.14.0)
+      activesupport (>= 5.2)
+      builder (>= 3.0)
+      nokogiri (>= 1.6.2)
+      rexml
+      xmlenc (>= 0.7.1)
     selenium-webdriver (4.3.0)
       childprocess (>= 0.5, < 5.0)
       rexml (~> 3.2, >= 3.2.5)
@@ -240,7 +236,7 @@ DEPENDENCIES
   puma (~> 5.0)
   rails (~> 7.0.0)
   redis (~> 4.0)
-  saml_idp!
+  saml_idp
   selenium-webdriver
   sprockets-rails
   sqlite3 (~> 1.4)

@@ -71,4 +71,4 @@ group :test do
   gem "webdrivers"
 end
 
-gem "saml_idp", path: "/Users/sivagollapalli/work/saml_idp"
+gem "saml_idp"
